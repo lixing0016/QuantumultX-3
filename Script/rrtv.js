@@ -9,6 +9,10 @@
 [Script]
 # 人人视频 旧版本api限制解除
 人人视频 旧版本api限制解除  = type=http-request,pattern=^https:\/\/api\.rr\.tv,script-path= https://raw.githubusercontent.com/id77/QuantumultX/master/Script/rrtv.js
+
+# Loon
+[Script]
+http-request ^https:\/\/api\.rr\.tv script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/Script/rrtv.js, tag=人人视频 旧版本api限制解除
  
 hostname = *.rr.tv
 */
