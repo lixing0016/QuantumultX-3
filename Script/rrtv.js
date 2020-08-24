@@ -1,5 +1,7 @@
 /* 
 
+我的app版本4.4.1
+
 # QuanX
 [rewrite_local]
 # 人人视频 旧版本api限制解除
@@ -21,10 +23,6 @@ const reg = /4\.\d+\.\d/g;
 const headers = JSON.parse(
   JSON.stringify($request.headers).replace(reg, '4.10.1')
 );
-
-headers.clientType= 'web';
-headers.clientVersion = '';
-headers['User-Agent'] = '';
 
 const data = { headers };
 
