@@ -16,7 +16,7 @@
         "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/thg.png",
         "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/thg.png"
       ],
-      "descs_html "：[
+      "descs_html": [
         "1、先行添加获取 Cookie 配置，<a target=\"_blank\" href=\"https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js\">前往文件获取</a>",
         "2、<img src=\"https://raw.githubusercontent.com/id77/QuantumultX/master/img/thg_qr.png\" />",
         "长按保存小程序码，用微信识别进去注册。注册完成，获取到cookie，即可注释获取cookie配置",
