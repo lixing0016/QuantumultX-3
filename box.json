@@ -1,0 +1,45 @@
+{
+  "id": "id77.app.sub",
+  "name": "id77 脚本订阅",
+  "author": "@id77",
+  "icon": "https://avatars0.githubusercontent.com/u/9592236",
+  "repo": "https://github.com/id77/QuantumultX/tree/master",
+  "apps": [
+    {
+      "id": "thg",
+      "name": "太好购",
+      "keys": ["id77_thg_token"],
+      "script": "https://raw.githubusercontent.com/id77/QuantumultX/master/task/thg.js",
+      "author": "@id77",
+      "repo": "https://raw.githubusercontent.com/id77/QuantumultX/master/task/thg.js",
+      "icons": [
+        "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/thg.png",
+        "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/thg.png"
+      ]
+    },
+    {
+      "id": "geekhub",
+      "name": "Geekhub",
+      "keys": ["id77_geekhub"],
+      "script": "https://raw.githubusercontent.com/id77/QuantumultX/master/task/geekhub.js",
+      "author": "@id77",
+      "repo": "https://raw.githubusercontent.com/id77/QuantumultX/master/task/geekhub.js",
+      "icons": [
+        "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/geekhub.png",
+        "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/geekhub.png"
+      ]
+    },
+    {
+      "id": "_163GameVip",
+      "name": "网易游戏会员",
+      "keys": ["id77_163GameVip"],
+      "script": "https://raw.githubusercontent.com/id77/QuantumultX/master/task/163GameVip.js",
+      "author": "@id77",
+      "repo": "https://raw.githubusercontent.com/id77/QuantumultX/master/task/163GameVip.js",
+      "icons": [
+        "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/163GameVip.png",
+        "https://raw.githubusercontent.com/id77/QuantumultX/master/icon/163GameVip.png"
+      ]
+    }
+  ]
+}
