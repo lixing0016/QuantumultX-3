@@ -5,20 +5,20 @@
  * hostname = huiyuan.163.com
  *
  * # Surge
- * Rewrite: 网易游戏会员 = type=http-request,pattern=^https:\/\/huiyuan\.163\.com\/jf\-mall\-api\/api\/sign_up\/(lucky|fixed),script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/163GameVip.cookie.js
+ * Rewrite: 网易游戏会员 = type=http-request,pattern=^https:\/\/huiyuan\.163\.com\/jf\-mall\-api\/api\/sign_up\/(lucky|normal),script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/163GameVip.cookie.js
  * Tasks: 网易游戏会员 = type=cron,cronexp=1 0 * * *,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/163GameVip.js,wake-system=true
  *
  * # QuanX
- * ^https:\/\/huiyuan\.163\.com\/jf\-mall\-api\/api\/sign_up\/(lucky|fixed) url script-request-header https://raw.githubusercontent.com/id77/QuantumultX/master/task/163GameVip.cookie.js
+ * ^https:\/\/huiyuan\.163\.com\/jf\-mall\-api\/api\/sign_up\/(lucky|normal) url script-request-header https://raw.githubusercontent.com/id77/QuantumultX/master/task/163GameVip.cookie.js
  * 1 0 * * * https://raw.githubusercontent.com/id77/QuantumultX/master/task/163GameVip.js, tag=网易游戏会员, img-url=https://raw.githubusercontent.com/id77/QuantumultX/master/icon/163GameVip.png,
  *
  * # Loon
- * http-request ^https:\/\/huiyuan\.163\.com\/jf\-mall\-api\/api\/sign_up\/(lucky|fixed) script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/163GameVip.cookie.js
+ * http-request ^https:\/\/huiyuan\.163\.com\/jf\-mall\-api\/api\/sign_up\/(lucky|normal) script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/163GameVip.cookie.js
  * cron "1 0 * * *" script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/163GameVip.js
  *
  */
 
-const $ = new Env('网易游戏会员');
+https: const $ = new Env('网易游戏会员');
 $.SESSION_KEY = 'id77_163GameVip';
 
 !(async () => {
