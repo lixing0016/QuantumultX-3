@@ -29,7 +29,7 @@ function sign() {
     opts.url = 'https://geekhub.com/checkins';
     $.get(opts, (err, resp, data) => {
       try {
-        $.resData = JSON.parse(data);
+        $.resData = data;
       } catch (e) {
         $.logErr(e, resp);
       } finally {
