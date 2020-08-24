@@ -11,7 +11,10 @@ var headers = JSON.parse(
   JSON.stringify($request.headers).replace(/4\.\d\.\d/g, '4.10.1')
 );
 
-var modifiedHeaders = headers;
-var modifiedPath = $request.path.replace(/4\.\d\.\d/g, '4.10.1');
+const data = { headers };
 
-$done({ path: modifiedPath, headers: modifiedHeaders });
+if ($request.url) data.url = $request.url.replace(/4\.\d\.\d/g, '4.10.1');
+
+if ($request.path) data.path = $request.path.replace(/4\.\d\.\d/g, '4.10.1');
+
+$done(data);
